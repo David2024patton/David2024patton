@@ -22,7 +22,7 @@
 
 ## 🧠 What I Build
 
-I design **autonomous AI agent frameworks** — systems that don't just answer questions, but plan, execute, self-heal, and remember across sessions. My work sits at the intersection of **LLM orchestration**, **sovereign infrastructure**, and **multi-agent coordination**.
+I design **autonomous AI agent frameworks**: systems that don't just answer questions, but plan, execute, self-heal, and remember across sessions. My work sits at the intersection of **LLM orchestration**, **sovereign infrastructure**, and **multi-agent coordination**.
 
 ### 🏗️ Flagship Project
 
@@ -31,7 +31,7 @@ I design **autonomous AI agent frameworks** — systems that don't just answer q
 <td width="120" align="center">🧬</td>
 <td>
 
-**[iTaK — Intelligent Task Automation Kernel](https://github.com/David2024patton/iTaK)**
+**[iTaK - Intelligent Task Automation Kernel](https://github.com/David2024patton/iTaK)**
 
 *If Agent Zero and MemGPT had a baby, and OpenClaw was the godfather.*
 
@@ -73,14 +73,6 @@ A modular, self-healing AI agent framework with 4-tier persistent memory, multi-
 
 ---
 
-## 📊 Activity
-
-<div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=David2024patton&theme=react-dark&hide_border=true&bg_color=0d1117&color=58a6ff&line=a855f7&point=f59e0b" width="95%" />
-</div>
-
----
-
 <div align="center">
 
 <img src="https://komarev.com/ghpvc/?username=David2024patton&style=for-the-badge&color=a855f7&label=PROFILE+VIEWS" />
@@ -91,6 +83,6 @@ A modular, self-healing AI agent framework with 4-tier persistent memory, multi-
 
 <br>
 
-*Building sovereign AI infrastructure — one agent at a time.*
+*Building sovereign AI infrastructure, one agent at a time.*
 
 </div>
