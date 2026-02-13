@@ -14,7 +14,7 @@
 <br>
 
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=David2024patton&theme=youtube-dark)](https://git.io/streak-stats)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=David2024patton&theme=kanagawa-paper)](https://git.io/streak-stats)
 
 </div>
 
