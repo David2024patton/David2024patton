@@ -13,7 +13,7 @@
 
 <br>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=David2024patton&theme=radical&hide_border=true&background=0d1117&ring=a855f7&fire=f59e0b&currStreakLabel=58a6ff" width="60%" />
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=)](https://git.io/streak-stats)
 
 </div>
 
