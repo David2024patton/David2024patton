@@ -12,7 +12,9 @@
 > *"I build AI agents that remember everything, fix their own mistakes, and never sleep."*
 
 <br>
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=David2024patton&theme=transparent)](https://git.io/streak-stats)
+
+
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=David2024patton&theme=youtube-dark)](https://git.io/streak-stats)
 
 </div>
 
