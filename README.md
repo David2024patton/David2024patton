@@ -13,8 +13,7 @@
 
 <br>
 
-<img src="https://github-readme-stats.vercel.app/api?username=David2024patton&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=a855f7&text_color=c9d1d9&count_private=true" width="49%" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=David2024patton&theme=radical&hide_border=true&background=0d1117&ring=a855f7&fire=f59e0b&currStreakLabel=58a6ff" width="49%" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=David2024patton&theme=radical&hide_border=true&background=0d1117&ring=a855f7&fire=f59e0b&currStreakLabel=58a6ff" width="60%" />
 
 </div>
 
@@ -69,6 +68,14 @@ A modular, self-healing AI agent framework with 4-tier persistent memory, multi-
 <img src="https://skillicons.dev/icons?i=py,ts,js,fastapi,nodejs,docker,postgres,sqlite,redis,react,nextjs,tailwind,html,css&perline=7" />
 <br><br>
 <img src="https://skillicons.dev/icons?i=git,github,linux,bash,vscode,pytorch,tensorflow&perline=7" />
+</div>
+
+---
+
+## 📊 Activity
+
+<div align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=David2024patton&theme=react-dark&hide_border=true&bg_color=0d1117&color=58a6ff&line=a855f7&point=f59e0b" width="95%" />
 </div>
 
 ---
