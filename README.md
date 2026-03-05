@@ -1,8 +1,8 @@
 <div align="center">
 
-# ⚡ DAVID PATTON
+# DAVID PATTON
 
-### Founder, [AlphaFlux](https://github.com/David2024patton) · AI Systems Architect · Kentucky, USA
+### AI Systems Architect · Kentucky, USA
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/davidrpatton/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/David2024patton)
@@ -13,105 +13,110 @@
 
 <br>
 
-
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=David2024patton&theme=kanagawa-paper)](https://git.io/streak-stats)
 
 </div>
 
 ---
 
-## 🧬 Flagship Project
+## The GO Ecosystem
+
+A complete AI agent infrastructure written in Go. Seven interconnected projects that together form a sovereign, self-hosted AI platform: from raw model inference to browser automation to full dashboard control.
 
 <table>
 <tr>
-<td width="120" align="center">🧠</td>
+<td width="50" align="center">🧠</td>
 <td>
 
-**[iTaK - Intelligent Task Automation Kernel](https://github.com/David2024patton/iTaK)**
+**[GOAgent](https://github.com/David2024patton/GOAgent)** - The orchestrator. 3-tier boss/manager/worker hierarchy with 8 core agents (Scout, Operator, Browser, Researcher, Coder, Doctor, Builder, Embedder). Per-agent LLM assignment, YAML config, shell safety, and 200+ planned features including agent personas, skill packs, and GOHub marketplace.
 
-*If Agent Zero and MemGPT had a baby, and OpenClaw was the godfather.*
+</td>
+</tr>
+<tr>
+<td align="center">🔥</td>
+<td>
 
-A modular, self-healing AI agent framework with 4-tier persistent memory, multi-channel adapters (Discord, Telegram, Slack, WebUI), Kanban task board, MCP client/server, agent swarms, and a full security stack. Ships with 24 extension hooks, a code quality gate, and crash recovery.
+**[GOTorch](https://github.com/David2024patton/GOTorch)** - Go-native LLM inference engine. Loads GGUF models via purego/ffi with zero CGo. **78 tok/s CPU, 242 tok/s GPU** on Qwen3-0.6B. Uses 30% less RAM and 30% less GPU than Ollama. Flash attention, mmap, smart CUDA lib selection.
 
-`Python` · `FastAPI` · `LiteLLM` · `Neo4j` · `SQLite` · `Docker`
+</td>
+</tr>
+<tr>
+<td align="center">🔀</td>
+<td>
+
+**[GOGateway](https://github.com/David2024patton/GOGateway)** - Unified LLM API gateway. 42 pre-configured providers, 4 format adapters (OpenAI/Anthropic/Google/Cohere), priority/round-robin/latency routing, circuit breakers, rate limiting, cost tracking, PII guardrails. 9.76 MB standalone binary.
+
+</td>
+</tr>
+<tr>
+<td align="center">🏗️</td>
+<td>
+
+**[GOForge](https://github.com/David2024patton/GOForge)** - Live preview server and container runtime. Auto-detects project type, builds, serves with hot reload. Scales from process isolation to real Linux containers via namespaces and cgroups. No Docker dependency.
+
+</td>
+</tr>
+<tr>
+<td align="center">📊</td>
+<td>
+
+**[GODashboard](https://github.com/David2024patton/GODashboard)** - Real-time agent monitoring and control panel. Live activity feed, chat interface, provider management, cost dashboards, knowledge graph viewer, kanban boards.
+
+</td>
+</tr>
+<tr>
+<td align="center">🌐</td>
+<td>
+
+**[GOBrowser](https://github.com/David2024patton/GOBrowser)** - AI-native browser automation CLI. Snapshot+Refs pattern for 93% token reduction vs raw DOM. 50+ commands, semantic locators, stealth mode, persistent profiles. Built on CDP via chromedp.
+
+</td>
+</tr>
+<tr>
+<td align="center">🎬</td>
+<td>
+
+**[GOMedia](https://github.com/David2024patton/GOMedia)** - Media processing pipeline. Video transcription, GOVoice TTS (local Piper + cloud fallback), webcam/screen capture, AI avatars, and a full topic-to-video content production factory.
 
 </td>
 </tr>
 </table>
 
----
+### Why Go?
 
-## 🔭 What Inspires Me
-
-I'm drawn to projects that push the boundaries of what AI agents can do autonomously. These ecosystems and communities shape the way I think about building:
-
-### 🦞 OpenClaw Ecosystem
-The open-source personal AI assistant movement. I maintain forks, dashboards, admin panels, and experimental builds across the ecosystem:
-
-[`openclaw`](https://github.com/David2024patton/openclaw) · [`openclaw-admin`](https://github.com/David2024patton/openclaw-admin) · [`openclaw-studio`](https://github.com/David2024patton/openclaw-studio) · [`ironclaw`](https://github.com/David2024patton/ironclaw) · [`nano-claw`](https://github.com/David2024patton/nano-claw) · [`mission-control`](https://github.com/David2024patton/mission-control) · [`dashbot`](https://github.com/David2024patton/dashbot) · [`GIGABOT`](https://github.com/David2024patton/GIGABOT) · [`VisionClaw`](https://github.com/David2024patton/VisionClaw) · [`AgentSmith`](https://github.com/David2024patton/AgentSmith) · [`secure-openclaw`](https://github.com/David2024patton/secure-openclaw)
-
-### 🤖 AI Agent Frameworks
-Standing on the shoulders of the best autonomous agent architectures:
-
-[`agent-zero`](https://github.com/David2024patton/agent-zero) · [`eliza`](https://github.com/David2024patton/eliza) · [`AutoGPT`](https://github.com/David2024patton/AutoGPT) · [`MemGPT`](https://github.com/David2024patton/MemGPT) · [`galyarder-agent`](https://github.com/David2024patton/galyarder-agent) · [`cuga-agent`](https://github.com/David2024patton/cuga-agent) · [`Second-Me`](https://github.com/David2024patton/Second-Me) · [`OpenDAN-Personal-AI-OS`](https://github.com/David2024patton/OpenDAN-Personal-AI-OS)
-
-### 📈 Prediction Markets & Trading Automation
-Autonomous trading bots, arbitrage engines, and market intelligence:
-
-[`poly_agents`](https://github.com/David2024patton/poly_agents) · [`ai-trading-v2`](https://github.com/David2024patton/ai-trading-v2) · [`polymarket-copy-trading-bot`](https://github.com/David2024patton/polymarket-copy-trading-bot) · [`moon-dev-ai-agents`](https://github.com/David2024patton/moon-dev-ai-agents) · [`seo-audit-pipeline`](https://github.com/David2024patton/seo-audit-pipeline)
-
-### 🔌 MCP & Tool Integrations
-Bridging AI agents to external systems via Model Context Protocol:
-
-[`mcporter`](https://github.com/David2024patton/mcporter) · [`serena`](https://github.com/David2024patton/serena) · [`sec-edgar-mcp`](https://github.com/David2024patton/sec-edgar-mcp) · [`blueprint-mcp`](https://github.com/David2024patton/blueprint-mcp) · [`unreal-mcp`](https://github.com/David2024patton/unreal-mcp) · [`mcp-server-youtube-transcript`](https://github.com/David2024patton/mcp-server-youtube-transcript)
-
-### ⚙️ n8n & Workflow Automation
-Low-code pipelines, custom nodes, and AI-driven workflows:
-
-[`n8n-nodes-kimi2`](https://github.com/David2024patton/n8n-nodes-kimi2) · [`n8n-nodes-super-agent`](https://github.com/David2024patton/n8n-nodes-super-agent) · [`n8n-free-templates`](https://github.com/David2024patton/n8n-free-templates) · [`llemonstack`](https://github.com/David2024patton/llemonstack) · [`AI-Stock-Technical-Analysis-n8n-x-FlowiseAI`](https://github.com/David2024patton/AI-Stock-Technical-Analysis-n8n-x-FlowiseAI)
-
-### 🎙️ Voice & Multimodal AI
-Voice cloning, speech recognition, and spatial orchestration:
-
-[`voicetree`](https://github.com/David2024patton/voicetree) · [`Qwen3-ASR`](https://github.com/David2024patton/Qwen3-ASR) · [`Voice-Clone-Studio`](https://github.com/David2024patton/Voice-Clone-Studio) · [`DeepEyesV2`](https://github.com/David2024patton/DeepEyesV2)
-
-### 🧪 LLM Research & Training
-From-scratch implementations, quantization, and inference engines:
-
-[`simple-llm`](https://github.com/David2024patton/simple-llm) · [`makeMoE`](https://github.com/David2024patton/makeMoE) · [`reasoning-from-scratch`](https://github.com/David2024patton/reasoning-from-scratch) · [`R-Zero`](https://github.com/David2024patton/R-Zero) · [`GPTQModel`](https://github.com/David2024patton/GPTQModel) · [`PowerInfer`](https://github.com/David2024patton/PowerInfer) · [`web-llm`](https://github.com/David2024patton/web-llm)
+Every component compiles to a single static binary. No virtual environments, no node_modules, no dependency hell. Cross-compile for any OS in seconds. The entire ecosystem runs on a $200 Dell OptiPlex mini PC.
 
 ---
 
-## ⚙️ Core Competencies
+## Core Competencies
 
 <div align="center">
 
 | Domain | Stack |
 |:---|:---|
-| 🤖 **AI / LLM** | LiteLLM · OpenAI · Gemini · Anthropic · Ollama · LangChain · CrewAI |
-| 🧠 **Memory / RAG** | Neo4j · Weaviate · ChromaDB · GraphRAG · pgvector |
-| 🏗️ **Backend** | Python · FastAPI · Node.js · TypeScript · Go · Rust |
-| 🐳 **Infrastructure** | Docker · Dokploy · Traefik · Cloudflare Tunnels · FRP |
-| 🛡️ **Security** | Secret Detection · Output Guard · RBAC · Rate Limiting · Sandboxing |
-| 🌐 **Integrations** | MCP (Client + Server) · n8n · Webhooks · SearXNG · Playwright |
-| 📡 **Multi-Channel** | Discord Bots · Telegram Bots · Slack · WebSocket Dashboards |
-| 🎮 **Game Dev** | Unreal Engine 5 · MCP Plugins · Blueprint Automation |
+| 🤖 **AI / LLM** | Go · llama.cpp · purego · GGUF · Ollama · OpenAI · Gemini · Anthropic |
+| 🧠 **Inference** | GOTorch (custom) · Flash Attention · CUDA · mmap · Quantization (Q4_K_M) |
+| 🔀 **Routing** | GOGateway · Circuit Breakers · Failover · Cost-Aware Routing |
+| 🏗️ **Backend** | Go · Python · TypeScript · FastAPI · Node.js |
+| 🐳 **Infrastructure** | Docker · Dokploy · Traefik · Cloudflare Tunnels |
+| 🌐 **Browser** | CDP · chromedp · Snapshot+Refs · Playwright |
+| 📡 **Integrations** | MCP · Discord · Telegram · Webhooks · SearXNG |
 
 </div>
 
 ---
 
-## 🔧 Tech Stack
+## Tech Stack
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=py,ts,js,go,rust,fastapi,nodejs,docker,postgres,sqlite,redis,react,nextjs,html&perline=7" />
+<img src="https://skillicons.dev/icons?i=go,py,ts,js,rust,fastapi,nodejs,docker,postgres,sqlite,redis,react,nextjs,html&perline=7" />
 <br><br>
 <img src="https://skillicons.dev/icons?i=git,github,linux,bash,vscode,pytorch,tensorflow,unreal&perline=8" />
 </div>
 
 ---
 
-## 📊 Activity
+## Activity
 
 <div align="center">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=David2024patton&theme=react-dark&hide_border=true&bg_color=0d1117&color=58a6ff&line=a855f7&point=f59e0b" width="95%" />
@@ -125,10 +130,6 @@ From-scratch implementations, quantization, and inference engines:
 
 <br><br>
 
-**🏠 Kentucky, USA** · **🔬 AlphaFlux** · **138 Repositories**
-
-<br>
-
-*Building sovereign AI infrastructure, one agent at a time.*
+*Building sovereign AI infrastructure, one Go binary at a time.*
 
 </div>
