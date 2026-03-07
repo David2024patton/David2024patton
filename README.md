@@ -34,7 +34,7 @@
 
 ## About
 
-I design and build **privacy-first AI infrastructure** in Go. Everything compiles to a single static binary, runs on a $200 mini PC, and keeps your data on your own hardware where it belongs.
+I design and build **privacy-first AI infrastructure** in Go. Everything compiles to a single static binary, runs on minimal hardware, and keeps your data on your own machines where it belongs.
 
 My work spans the full stack of sovereign AI - from raw model inference and GPU acceleration to autonomous agent orchestration, converged physical + cyber security monitoring, and data loss prevention.
 
@@ -93,23 +93,19 @@ The public piece of the puzzle is [**iTaK Shield**](https://github.com/David2024
 
 <div align="center">
 
-<!-- contribution snake / pac-man animation -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/David2024patton/David2024patton/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/David2024patton/David2024patton/output/github-contribution-grid-snake.svg" />
-  <img alt="contribution snake animation" src="https://raw.githubusercontent.com/David2024patton/David2024patton/output/github-contribution-grid-snake-dark.svg" />
-</picture>
+<!-- contribution snake animation -->
+<img alt="contribution snake animation" src="https://raw.githubusercontent.com/David2024patton/David2024patton/output/github-contribution-grid-snake-dark.svg" width="95%" />
 
 <br><br>
 
 <!-- activity graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=David2024patton&theme=react-dark&hide_border=true&bg_color=0d1117&color=c9d1d9&line=e94560&point=f59e0b&area=true&area_color=e94560" width="95%" />
+<img alt="activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=David2024patton&theme=react-dark&hide_border=true&bg_color=0d1117&color=c9d1d9&line=e94560&point=f59e0b&area=true&area_color=e94560" width="95%" />
 
 <br><br>
 
-<!-- stats cards side by side -->
-<img src="https://github-readme-stats.vercel.app/api?username=David2024patton&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=e94560&icon_color=e94560&text_color=c9d1d9" height="170" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=David2024patton&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=e94560&text_color=c9d1d9&langs_count=8" height="170" />
+<!-- stats cards -->
+<img alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=David2024patton&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=e94560&icon_color=e94560&text_color=c9d1d9" height="170" />
+<img alt="top languages" src="https://github-readme-stats.vercel.app/api/top-langs?username=David2024patton&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=e94560&text_color=c9d1d9&langs_count=8" height="170" />
 
 </div>
 
@@ -122,7 +118,7 @@ The public piece of the puzzle is [**iTaK Shield**](https://github.com/David2024
 *Every component compiles to a single static binary.*
 *No virtual environments. No node_modules. No dependency hell.*
 *Cross-compile for any OS in seconds.*
-*The entire ecosystem runs on a $200 Dell OptiPlex mini PC.*
+*Runs on whatever hardware you already own.*
 
 <br>
 
