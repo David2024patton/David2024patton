@@ -93,11 +93,6 @@ The public piece of the puzzle is [**iTaK Shield**](https://github.com/David2024
 
 <div align="center">
 
-<!-- contribution snake animation -->
-<img alt="contribution snake animation" src="https://raw.githubusercontent.com/David2024patton/David2024patton/output/github-contribution-grid-snake-dark.svg" width="95%" />
-
-<br><br>
-
 <!-- activity graph -->
 <img alt="activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=David2024patton&theme=react-dark&hide_border=true&bg_color=0d1117&color=c9d1d9&line=e94560&point=f59e0b&area=true&area_color=e94560" width="95%" />
 
