@@ -1,90 +1,62 @@
 <div align="center">
 
-# DAVID PATTON
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!--                          ANIMATED HEADER                              -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-### AI Systems Architect · Kentucky, USA
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=gradient&customColorList=0,2,12,30&text=DAVID%20PATTON&fontColor=ffffff&fontSize=48&fontAlignY=32&desc=AI%20Systems%20Architect%20%7C%20Security%20Engineer%20%7C%20Go%20Developer&descSize=16&descAlignY=52&animation=twinkling&stroke=e94560&strokeWidth=1" width="100%" alt="David Patton - AI Systems Architect" />
+
+<br>
+
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!--                           SOCIAL BADGES                               -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/davidrpatton/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/David2024patton)
+[![iTaK Shield](https://img.shields.io/badge/iTaK_Shield-e94560?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xMiAxTDMgNXY2YzcgNSAxMiA5IDEyIDloLjFjLjEgMCA1LjEtNCA5LjktOVY1TDEyIDF6Ii8+PC9zdmc+&logoColor=white)](https://github.com/David2024patton/itak-shield)
 
 <br>
 
-> *"I build AI agents that remember everything, fix their own mistakes, and never sleep."*
+> *"I build AI systems that run on your hardware, protect your data, and never need permission from the cloud."*
 
 <br>
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=David2024patton&theme=kanagawa-paper)](https://git.io/streak-stats)
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!--                          STREAK STATS                                 -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=David2024patton&theme=midnight-purple&hide_border=true&background=0d1117&ring=e94560&fire=e94560&currStreakLabel=c9d1d9&sideLabels=c9d1d9&dates=58a6ff)](https://git.io/streak-stats)
 
 </div>
 
 ---
 
-## The GO Ecosystem
+## About
 
-A complete AI agent infrastructure written in Go. Seven interconnected projects that together form a sovereign, self-hosted AI platform: from raw model inference to browser automation to full dashboard control.
+I design and build **privacy-first AI infrastructure** in Go. Everything compiles to a single static binary, runs on a $200 mini PC, and keeps your data on your own hardware where it belongs.
 
-<table>
-<tr>
-<td width="50" align="center">🧠</td>
-<td>
+My work spans the full stack of sovereign AI - from raw model inference and GPU acceleration to autonomous agent orchestration, converged physical + cyber security monitoring, and data loss prevention.
 
-**[GOAgent](https://github.com/David2024patton/GOAgent)** - The orchestrator. 3-tier boss/manager/worker hierarchy with 8 core agents (Scout, Operator, Browser, Researcher, Coder, Doctor, Builder, Embedder). Per-agent LLM assignment, YAML config, shell safety, and 200+ planned features including agent personas, skill packs, and GOHub marketplace.
+The public piece of the puzzle is [**iTaK Shield**](https://github.com/David2024patton/itak-shield) - a privacy proxy that sits between your AI tools and cloud APIs, automatically redacting PII before anything leaves your machine.
 
-</td>
-</tr>
-<tr>
-<td align="center">🔥</td>
-<td>
+---
 
-**[GOTorch](https://github.com/David2024patton/GOTorch)** - Go-native LLM inference engine. Loads GGUF models via purego/ffi with zero CGo. **78 tok/s CPU, 242 tok/s GPU** on Qwen3-0.6B. Uses 30% less RAM and 30% less GPU than Ollama. Flash attention, mmap, smart CUDA lib selection.
+## What I Build
 
-</td>
-</tr>
-<tr>
-<td align="center">🔀</td>
-<td>
+<div align="center">
 
-**[GOGateway](https://github.com/David2024patton/GOGateway)** - Unified LLM API gateway. 42 pre-configured providers, 4 format adapters (OpenAI/Anthropic/Google/Cohere), priority/round-robin/latency routing, circuit breakers, rate limiting, cost tracking, PII guardrails. 9.76 MB standalone binary.
+| Domain | What It Covers |
+|:---|:---|
+| 🛡️ **Data Loss Prevention** | Real-time PII detection (30+ categories), proxy-based redaction for cloud AI APIs, evidence-grade audit trails |
+| 🧠 **Local AI Inference** | Zero-CGo GPU acceleration, GGUF model loading, flash attention, quantization, multi-model serving |
+| 🤖 **Agent Orchestration** | Self-healing multi-agent hierarchies, per-agent LLM assignment, tool/skill management, knowledge graphs |
+| 📡 **Converged Security** | AI-powered camera tracking, network infrastructure monitoring, threat detection bridged into a single pane |
+| 🔀 **API Gateway Routing** | Multi-provider failover, circuit breakers, cost-aware routing, format adaptation across LLM providers |
+| 🌐 **Browser Automation** | CDP-native automation, 93% token reduction via snapshot patterns, stealth mode, semantic locators |
+| 🏗️ **Dev Infrastructure** | Live preview servers, hot reload, container runtimes, real-time dashboards, monitoring and control panels |
 
-</td>
-</tr>
-<tr>
-<td align="center">🏗️</td>
-<td>
-
-**[GOForge](https://github.com/David2024patton/GOForge)** - Live preview server and container runtime. Auto-detects project type, builds, serves with hot reload. Scales from process isolation to real Linux containers via namespaces and cgroups. No Docker dependency.
-
-</td>
-</tr>
-<tr>
-<td align="center">📊</td>
-<td>
-
-**[GODashboard](https://github.com/David2024patton/GODashboard)** - Real-time agent monitoring and control panel. Live activity feed, chat interface, provider management, cost dashboards, knowledge graph viewer, kanban boards.
-
-</td>
-</tr>
-<tr>
-<td align="center">🌐</td>
-<td>
-
-**[GOBrowser](https://github.com/David2024patton/GOBrowser)** - AI-native browser automation CLI. Snapshot+Refs pattern for 93% token reduction vs raw DOM. 50+ commands, semantic locators, stealth mode, persistent profiles. Built on CDP via chromedp.
-
-</td>
-</tr>
-<tr>
-<td align="center">🎬</td>
-<td>
-
-**[GOMedia](https://github.com/David2024patton/GOMedia)** - Media processing pipeline. Video transcription, GOVoice TTS (local Piper + cloud fallback), webcam/screen capture, AI avatars, and a full topic-to-video content production factory.
-
-</td>
-</tr>
-</table>
-
-### Why Go?
-
-Every component compiles to a single static binary. No virtual environments, no node_modules, no dependency hell. Cross-compile for any OS in seconds. The entire ecosystem runs on a $200 Dell OptiPlex mini PC.
+</div>
 
 ---
 
@@ -95,12 +67,13 @@ Every component compiles to a single static binary. No virtual environments, no 
 | Domain | Stack |
 |:---|:---|
 | 🤖 **AI / LLM** | Go · llama.cpp · purego · GGUF · Ollama · OpenAI · Gemini · Anthropic |
-| 🧠 **Inference** | GOTorch (custom) · Flash Attention · CUDA · mmap · Quantization (Q4_K_M) |
-| 🔀 **Routing** | GOGateway · Circuit Breakers · Failover · Cost-Aware Routing |
+| 🧠 **Inference** | Flash Attention · CUDA · Vulkan · mmap · Quantization (Q4_K_M, Q8_0) |
+| 🔀 **Networking** | Circuit Breakers · Failover · Cost-Aware Routing · Reverse Proxies |
 | 🏗️ **Backend** | Go · Python · TypeScript · FastAPI · Node.js |
-| 🐳 **Infrastructure** | Docker · Dokploy · Traefik · Cloudflare Tunnels |
-| 🌐 **Browser** | CDP · chromedp · Snapshot+Refs · Playwright |
-| 📡 **Integrations** | MCP · Discord · Telegram · Webhooks · SearXNG |
+| 🐳 **Infrastructure** | Docker · Dokploy · Traefik · Cloudflare Tunnels · systemd |
+| 🌐 **Automation** | CDP · chromedp · Playwright · Snapshot+Refs |
+| 📡 **Integrations** | MCP · Discord · Telegram · Webhooks · SearXNG · Neo4j |
+| 🛡️ **Security** | PII Scanning · DLP · Hash-Signed Evidence · Network Monitoring |
 
 </div>
 
@@ -119,17 +92,44 @@ Every component compiles to a single static binary. No virtual environments, no 
 ## Activity
 
 <div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=David2024patton&theme=react-dark&hide_border=true&bg_color=0d1117&color=58a6ff&line=a855f7&point=f59e0b" width="95%" />
+
+<!-- contribution snake / pac-man animation -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/David2024patton/David2024patton/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/David2024patton/David2024patton/output/github-contribution-grid-snake.svg" />
+  <img alt="contribution snake animation" src="https://raw.githubusercontent.com/David2024patton/David2024patton/output/github-contribution-grid-snake-dark.svg" />
+</picture>
+
+<br><br>
+
+<!-- activity graph -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=David2024patton&theme=react-dark&hide_border=true&bg_color=0d1117&color=c9d1d9&line=e94560&point=f59e0b&area=true&area_color=e94560" width="95%" />
+
+<br><br>
+
+<!-- stats cards side by side -->
+<img src="https://github-readme-stats.vercel.app/api?username=David2024patton&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=e94560&icon_color=e94560&text_color=c9d1d9" height="170" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=David2024patton&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=e94560&text_color=c9d1d9&langs_count=8" height="170" />
+
 </div>
 
 ---
 
 <div align="center">
 
-<img src="https://komarev.com/ghpvc/?username=David2024patton&style=for-the-badge&color=a855f7&label=PROFILE+VIEWS" />
+### Philosophy
 
-<br><br>
+*Every component compiles to a single static binary.*
+*No virtual environments. No node_modules. No dependency hell.*
+*Cross-compile for any OS in seconds.*
+*The entire ecosystem runs on a $200 Dell OptiPlex mini PC.*
 
-*Building sovereign AI infrastructure, one Go binary at a time.*
+<br>
+
+**Run AI locally when you can. Protect your data when you can't.**
+
+<br>
+
+<img src="https://komarev.com/ghpvc/?username=David2024patton&style=for-the-badge&color=e94560&label=PROFILE+VIEWS" />
 
 </div>
