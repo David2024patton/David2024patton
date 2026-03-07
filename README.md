@@ -96,11 +96,7 @@ The public piece of the puzzle is [**iTaK Shield**](https://github.com/David2024
 <!-- activity graph -->
 <img alt="activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=David2024patton&theme=react-dark&hide_border=true&bg_color=0d1117&color=c9d1d9&line=e94560&point=f59e0b&area=true&area_color=e94560" width="95%" />
 
-<br><br>
 
-<!-- stats cards -->
-<img alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=David2024patton&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=e94560&icon_color=e94560&text_color=c9d1d9" height="170" />
-<img alt="top languages" src="https://github-readme-stats.vercel.app/api/top-langs?username=David2024patton&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=e94560&text_color=c9d1d9&langs_count=8" height="170" />
 
 </div>
 
