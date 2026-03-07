@@ -4,7 +4,7 @@
 <!--                          ANIMATED HEADER                              -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=gradient&customColorList=0,2,12,30&text=DAVID%20PATTON&fontColor=ffffff&fontSize=48&fontAlignY=32&desc=AI%20Systems%20Architect%20%7C%20Security%20Engineer%20%7C%20Go%20Developer&descSize=16&descAlignY=52&animation=twinkling&stroke=e94560&strokeWidth=1" width="100%" alt="David Patton - AI Systems Architect" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=gradient&customColorList=0,2,12,30&text=DAVID%20PATTON&fontColor=ffffff&fontSize=48&fontAlignY=32&desc=AI%20Systems%20Architect%20%7C%20Security%20Engineer%20%7C%20Full%20Stack%20Developer&descSize=16&descAlignY=52&animation=twinkling&stroke=e94560&strokeWidth=1" width="100%" alt="David Patton - AI Systems Architect" />
 
 <br>
 
@@ -34,7 +34,7 @@
 
 ## About
 
-I design and build **privacy-first AI infrastructure** in Go. Everything compiles to a single static binary, runs on minimal hardware, and keeps your data on your own machines where it belongs.
+I design and build **privacy-first AI infrastructure** across the full stack - Python, Go, TypeScript, Rust, and everything in between. From graph databases and real-time dashboards to bare-metal inference engines and autonomous agents, the focus is always the same: keep your data on your own machines where it belongs.
 
 My work spans the full stack of sovereign AI - from raw model inference and GPU acceleration to autonomous agent orchestration, converged physical + cyber security monitoring, and data loss prevention.
 
@@ -49,7 +49,7 @@ The public piece of the puzzle is [**iTaK Shield**](https://github.com/David2024
 | Domain | What It Covers |
 |:---|:---|
 | 🛡️ **Data Loss Prevention** | Real-time PII detection (30+ categories), proxy-based redaction for cloud AI APIs, evidence-grade audit trails |
-| 🧠 **Local AI Inference** | Zero-CGo GPU acceleration, GGUF model loading, flash attention, quantization, multi-model serving |
+| 🧠 **Local AI Inference** | GPU acceleration, GGUF model loading, flash attention, quantization, multi-model serving |
 | 🤖 **Agent Orchestration** | Self-healing multi-agent hierarchies, per-agent LLM assignment, tool/skill management, knowledge graphs |
 | 📡 **Converged Security** | AI-powered camera tracking, network infrastructure monitoring, threat detection bridged into a single pane |
 | 🔀 **API Gateway Routing** | Multi-provider failover, circuit breakers, cost-aware routing, format adaptation across LLM providers |
@@ -66,13 +66,13 @@ The public piece of the puzzle is [**iTaK Shield**](https://github.com/David2024
 
 | Domain | Stack |
 |:---|:---|
-| 🤖 **AI / LLM** | Go · llama.cpp · purego · GGUF · Ollama · OpenAI · Gemini · Anthropic |
+| 🏗️ **Backend** | Python · Go · TypeScript · Rust · FastAPI · Node.js |
+| 🤖 **AI / LLM** | llama.cpp · Ollama · OpenAI · Gemini · Anthropic · GGUF · Hugging Face |
 | 🧠 **Inference** | Flash Attention · CUDA · Vulkan · mmap · Quantization (Q4_K_M, Q8_0) |
-| 🔀 **Networking** | Circuit Breakers · Failover · Cost-Aware Routing · Reverse Proxies |
-| 🏗️ **Backend** | Go · Python · TypeScript · FastAPI · Node.js |
+| 🗄️ **Data** | PostgreSQL · SQLite · Redis · Neo4j · Supabase · ChromaDB |
 | 🐳 **Infrastructure** | Docker · Dokploy · Traefik · Cloudflare Tunnels · systemd |
-| 🌐 **Automation** | CDP · chromedp · Playwright · Snapshot+Refs |
-| 📡 **Integrations** | MCP · Discord · Telegram · Webhooks · SearXNG · Neo4j |
+| 🌐 **Automation** | CDP · Playwright · chromedp · Snapshot+Refs |
+| 📡 **Integrations** | MCP · Discord · Telegram · Webhooks · SearXNG |
 | 🛡️ **Security** | PII Scanning · DLP · Hash-Signed Evidence · Network Monitoring |
 
 </div>
@@ -82,9 +82,9 @@ The public piece of the puzzle is [**iTaK Shield**](https://github.com/David2024
 ## Tech Stack
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=go,py,ts,js,rust,fastapi,nodejs,docker,postgres,sqlite,redis,react,nextjs,html&perline=7" />
+<img src="https://skillicons.dev/icons?i=py,go,ts,js,rust,fastapi,nodejs,docker,postgres,supabase,redis,react,nextjs,html&perline=7" />
 <br><br>
-<img src="https://skillicons.dev/icons?i=git,github,linux,bash,vscode,pytorch,tensorflow,unreal&perline=8" />
+<img src="https://skillicons.dev/icons?i=git,github,linux,bash,vscode,neo4j,pytorch,grafana&perline=8" />
 </div>
 
 ---
@@ -115,10 +115,9 @@ The public piece of the puzzle is [**iTaK Shield**](https://github.com/David2024
 
 ### Philosophy
 
-*Every component compiles to a single static binary.*
-*No virtual environments. No node_modules. No dependency hell.*
-*Cross-compile for any OS in seconds.*
-*Runs on whatever hardware you already own.*
+*Pick the right tool for the job.*
+*Keep it simple. Ship it fast. Own your data.*
+*If it can run locally, it should run locally.*
 
 <br>
 
